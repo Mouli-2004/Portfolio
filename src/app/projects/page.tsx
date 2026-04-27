@@ -27,10 +27,8 @@ export default function Page() {
   ];
 
   const projects: Project[] = [
-    { id: 3, title: "bulkMailer", description: "A bulk email sender app with custom styling that allows users to send emails to multiple recipients.", tags: ["Next.js", "Node.js", "Express.js", "Gmail SMTP", "Tailwind CSS"], video: "/projects/bulkmailer.mkv", demoUrl: "", githubUrl: "https://github.com", showViewProject: false },
-    { id: 10, title: "PicMorph", description: "A web app that morphs images from one format to another.", tags: ["Next.js", "Tailwind CSS"], video: "/projects/picmorph.mkv", demoUrl: "https://picmorph.namandadhich.me/", githubUrl: "", showViewProject: true },
-    { id: 2, title: "Portfolio v2", description: "My second portfolio website with improved tech stack.", tags: ["React", "Three.js", "Tailwind CSS"], video: "/projects/portfolioReact.mkv", demoUrl: "https://namanportfoliov2.vercel.app/", githubUrl: "", showViewProject: true },
-    { id: 1, title: "Portfolio v1", description: "My first portfolio website.", tags: ["HTML", "CSS", "JS"], video: "/projects/tempport.mkv", demoUrl: "", githubUrl: "https://github.com/namannn04/Portfolio-temp", showViewProject: true },
+    { id: 2, title: "bulkMailer", description: "A bulk email sender app with custom styling that allows users to send emails to multiple recipients.", tags: ["Next.js", "Node.js", "Express.js", "Gmail SMTP", "Tailwind CSS"], video: "/projects/bulkmailer.mkv", demoUrl: "", githubUrl: "https://github.com", showViewProject: false },
+    { id: 1, title: "PicMorph", description: "A web app that morphs images from one format to another.", tags: ["Next.js", "Tailwind CSS"], video: "/projects/picmorph.mkv", demoUrl: "https://picmorph.namandadhich.me/", githubUrl: "", showViewProject: true },
   ];
 
   const MCProjectCard = ({ project, isGroup, index }: { project: Project | GroupProject; isGroup: boolean; index: number }) => (

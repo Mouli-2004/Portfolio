@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from "react";
 import { Code2, Database, Layers, Wrench, Crown } from "lucide-react";
-import Link from "next/link";
 
 const skills = {
   languages: [
@@ -299,26 +298,6 @@ export default function SkillsSection() {
           </div>
         </div>
 
-        {/* Resume link */}
-        <div className="mt-12 flex justify-center">
-          <Link href="/resume">
-            <button
-              className="cursor-pointer px-6 py-3 flex items-center gap-4 text-t-text font-medium transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
-              style={{
-                background: "var(--t-surface)",
-                border: "2px solid var(--t-border)",
-                boxShadow:
-                  "inset 1px 1px 0 rgba(255,255,255,0.08), inset -1px -1px 0 rgba(0,0,0,0.25), 3px 3px 0 rgba(0,0,0,0.3)",
-              }}
-            >
-              <span className="flex items-center gap-2">
-                <Wrench className="h-5 w-5 text-mc-grass" />
-                <span>View Full Resume</span>
-              </span>
-              <span className="text-mc-diamond">→</span>
-            </button>
-          </Link>
-        </div>
       </div>
     </section>
   );

@@ -11,7 +11,6 @@ const navOptions = [
   { name: "About", href: "#about", shortcut: "a" },
   { name: "Skills", href: "#skills", shortcut: "s" },
   { name: "Projects", href: "/projects", shortcut: "p" },
-  { name: "Experience", href: "/experience", shortcut: "e" },
 ];
 
 export default function Navbar() {
@@ -150,7 +149,7 @@ export default function Navbar() {
       {/* === TOP NAVBAR - Minecraft Hotbar Style === */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent text-t-text md:relative md:mb-5 no-mc-font">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between md:justify-center md:gap-6 lg:gap-24 h-16">
+          <div className="flex items-center justify-between md:justify-between md:gap-6 lg:gap-24 h-16">
             {/* Mobile hamburger */}
             <div className="flex md:hidden">
               <button

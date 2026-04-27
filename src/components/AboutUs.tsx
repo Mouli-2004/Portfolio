@@ -1,14 +1,13 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { ExternalLink, UserRound } from "lucide-react";
+import { UserRound } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export default function AboutSection() {
   const aboutContentRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
-  const [isExpanded, setIsExpanded] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
   // Intersection observer for scroll-triggered reveal
@@ -134,7 +133,7 @@ export default function AboutSection() {
                         Education
                       </h4>
                       <p className="text-t-text2">
-                        Bachelor of Technology (Computer Science and Engineering)
+                        Bachelor of Computer Applications
                       </p>
                       <p className="text-t-muted text-sm">
                         Presidency University, 2026
@@ -163,22 +162,7 @@ export default function AboutSection() {
                 </div>
 
                 {/* Action buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 sm:justify-between mt-8 pt-6 border-t-2 border-t-border">
-                  <Link href="/resume" className="w-full sm:w-auto">
-                    <Button
-                      className="w-full cursor-pointer text-white font-medium"
-                      style={{
-                        background: "var(--mc-grass)",
-                        border: "2px solid rgba(0,0,0,0.2)",
-                        boxShadow:
-                          "inset 1px 1px 0 rgba(255,255,255,0.2), inset -1px -1px 0 rgba(0,0,0,0.3), 2px 2px 0 rgba(0,0,0,0.3)",
-                        borderRadius: "0",
-                      }}
-                    >
-                      Download Resume
-                      <ExternalLink className="ml-2 h-4 w-4" />
-                    </Button>
-                  </Link>
+                <div className="flex flex-col sm:flex-row gap-4 mt-8 pt-6 border-t-2 border-t-border">
                   <Link href="/contact" className="w-full sm:w-auto">
                     <Button
                       className="w-full cursor-pointer text-white font-medium"
