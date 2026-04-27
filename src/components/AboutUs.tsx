@@ -113,92 +113,9 @@ export default function AboutSection() {
               <div ref={aboutContentRef} className="space-y-6">
                 <div className="space-y-4">
                   <p className="text-t-text2 leading-relaxed">
-                    Hello! I&apos;m Naman Dadhich, a Full Stack Developer with a
-                    passion for coding and currently in my third year, sixth
-                    semester. I have more than two years of hands-on experience
-                    and specialize in developing solid web applications. I also
-                    have 3 months of experience as an SDE at Zelosify, where I
-                    learned a lot from senior developers and contributed to
-                    building a complete end-to-end vendor and contract management
-                    system. I started my journey with the MERN stack and now I
-                    primarily build projects using Next.js and TypeScript,
-                    focusing on scalable and efficient solutions. I am committed
-                    to building stylish, clean, and responsive user interfaces as
-                    well as robust, scalable backend systems that together deliver
-                    great user experiences.
+                    Hi, I’m Mouli, an aspiring AI/ML Engineer with a strong interest in building intelligent systems that solve real-world problems. I enjoy working with data, developing machine learning models, and exploring how AI can improve decision-making in areas like healthcare and business.
+                    I’m currently focused on learning and applying concepts in machine learning, deep learning, and full-stack development, aiming to build end-to-end AI-powered applications.
                   </p>
-
-                  {/* Expandable Content */}
-                  <div
-                    className={`overflow-hidden transition-all duration-500 ease-in-out ${isExpanded
-                        ? "max-h-[2000px] opacity-100 mt-4"
-                        : "max-h-0 opacity-0"
-                      }`}
-                  >
-                    <div className="space-y-4">
-                      <p className="text-t-text2 leading-relaxed">
-                        My path into the field of web development was ignited in
-                        my second semester. Although my first projects during the
-                        third semester were learning bases in nature (as you can
-                        observe in my projects section), a real chance
-                        materialized when I spearheaded the development of a
-                        website for a hackathon as a project organizer. This one
-                        changed how I approached the work, focusing on
-                        collaborative work and enabling me to contribute more
-                        profoundly. I currently serve as the Head of the
-                        Development Department at the Geek Room Community, MSIT,
-                        where I lead and oversee development initiatives across
-                        multiple projects. Previously, I held the role of Head of
-                        Development at the Google Developer Group (GDG), formerly
-                        GDSC, MSIT chapter, and continue to contribute to the
-                        community as its Chief Advisor. Through these roles, I
-                        have gained extensive experience leading team-based
-                        projects, mentoring developers, and driving impactful
-                        technical solutions.
-                      </p>
-                      <p className="text-t-text2 leading-relaxed">
-                        Beyond development leadership, I have been actively
-                        involved in organizing hackathons and ideathons, ranging
-                        from MLH-backed national-level to a global-level
-                        hackathon. I have also contributed as a mentor in multiple
-                        hackathons, supporting teams with technical guidance and
-                        strategic direction.
-                      </p>
-                      <p className="text-t-text2 leading-relaxed">
-                        Outside of the world of code, I absolutely love playing
-                        chess—even during boring college lectures, you&apos;ll
-                        often find me engrossed in a game. I also enjoy the quiet
-                        pleasures of listening to music and taking time to
-                        recharge. I am always eager to learn and grow as a coder,
-                        welcoming new challenges and striving to create meaningful
-                        digital solutions.
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Show More/Less */}
-                  <div className="flex justify-center my-6">
-                    <button
-                      onClick={() => setIsExpanded(!isExpanded)}
-                      className="mc-slot cursor-pointer px-6 py-2.5 flex items-center gap-2 text-mc-grass hover:text-mc-emerald transition-all text-sm font-medium"
-                    >
-                      {isExpanded ? "Show Less" : "Read Full Story"}
-                      <svg
-                        className={`h-4 w-4 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""
-                          }`}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M19 9l-7 7-7-7"
-                        />
-                      </svg>
-                    </button>
-                  </div>
 
                   {/* Stats grid */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
@@ -220,7 +137,7 @@ export default function AboutSection() {
                         Bachelor of Technology (Computer Science and Engineering)
                       </p>
                       <p className="text-t-muted text-sm">
-                        Maharaja Surajmal Institute of Technology, 2027
+                        Presidency University, 2026
                       </p>
                     </div>
                     <div
@@ -237,7 +154,7 @@ export default function AboutSection() {
                         <span className="text-mc-diamond">📍</span>
                         Location
                       </h4>
-                      <p className="text-t-text2">New Delhi, India</p>
+                      <p className="text-t-text2"> Bengaluru, Karnataka, India</p>
                       <p className="text-t-muted text-sm">
                         Available for remote work
                       </p>

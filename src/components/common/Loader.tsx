@@ -657,7 +657,7 @@ export default function LoaderScreen({onComplete}:LoaderScreenProps){
       const cf=Math.max(8,VW*0.011);
       ctx.fillStyle="rgba(255,255,255,0.18)";
       ctx.font=`400 ${cf}px 'Courier New',monospace`;
-      ctx.textAlign="left";  ctx.fillText("NAMANDADHICH.IN",22,24);
+      ctx.textAlign="left";  ctx.fillText("MOULIMITTAL.IN",22,24);
       ctx.textAlign="right"; ctx.fillText(`${Math.round(S.countDisp)}%`,VW-22,24);
 
       /* flash */

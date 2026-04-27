@@ -109,11 +109,9 @@ export default function Contact() {
               }}
             >
               {[
-                { icon: "linkedin", url: "https://linkedin.com/in/namannn04", label: "LinkedIn" },
-                { icon: "github", url: "https://github.com/namannn04", label: "GitHub" },
-                { icon: "discord", url: "https://discord.com/users/736213483581866053", label: "Discord" },
-                { icon: "twitter-x", url: "https://x.com/namannn04", label: "X" },
-                { icon: "instagram", url: "https://instagram.com/namannn04", label: "Instagram" },
+                { icon: "linkedin", url: "https://linkedin.com/in/moulimittal", label: "LinkedIn" },
+                { icon: "github", url: "https://github.com/Mouli-2004", label: "GitHub" },
+
               ].map((social) => (
                 <a
                   key={social.icon}
@@ -229,7 +227,7 @@ export default function Contact() {
             <p className="text-t-muted">
               or mail me at{" "}
               <span className="text-mc-diamond hover:text-mc-grass transition-colors font-medium">
-                reachout2naman@gmail.com
+                moulimittal204@gmail.com
               </span>
             </p>
           </div>

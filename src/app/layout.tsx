@@ -23,7 +23,7 @@ const silkscreen = Silkscreen({
 });
 
 export const metadata: Metadata = {
-  title: "Naman Dadhich",
+  title: "Mouli Mittal",
   description: "Full Stack Developer portfolio — crafted with a Minecraft-inspired design. Explore projects, skills, and experience.",
 };
 

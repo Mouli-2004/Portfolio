@@ -12,8 +12,6 @@ const navOptions = [
   { name: "Skills", href: "#skills", shortcut: "s" },
   { name: "Projects", href: "/projects", shortcut: "p" },
   { name: "Experience", href: "/experience", shortcut: "e" },
-  { name: "Events", href: "/events", shortcut: "v" },
-  { name: "Resume", href: "/resume", shortcut: "r" },
 ];
 
 export default function Navbar() {
@@ -221,7 +219,7 @@ export default function Navbar() {
                 }}
               >
                 <Link href="/" className="hover:text-mc-emerald transition-colors no-mc-font">
-                  .dadhich
+                  .mittal
                 </Link>
               </div>
             </div>

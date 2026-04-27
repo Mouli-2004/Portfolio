@@ -48,7 +48,7 @@ export default function Footer() {
           <span style={{ animation: "heartbeat 1.5s ease-in-out infinite" }}>
             ❤️
           </span>
-          by Naman
+          by Mouli
           <span>🏗️</span>
         </p>
       </div>

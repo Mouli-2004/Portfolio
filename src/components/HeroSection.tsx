@@ -24,7 +24,7 @@ export default function HeroSection() {
   const [showCursor, setShowCursor] = useState(true);
   const [xpOrbPositions, setXpOrbPositions] = useState<{ x: number; y: number; delay: number; size: number }[]>([]);
   const containerRef = useRef<HTMLDivElement>(null);
-  const fullText = "Web Developer | Open Source Contributor";
+  const fullText = " AIML Engineer | Open Source Contributor";
 
   // Generate falling blocks
   useEffect(() => {
@@ -141,8 +141,8 @@ export default function HeroSection() {
                 className="text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-wider text-t-text"
                 style={{ textShadow: "2px 2px 0 rgba(0,0,0,0.5), 4px 4px 0 rgba(0,0,0,0.2)" }}
               >
-                <span className="text-mc-grass">Naman</span>{" "}
-                <span className="text-mc-diamond">Dadhich</span>
+                <span className="text-mc-grass">Mouli</span>{" "}
+                <span className="text-mc-diamond">Mittal</span>
               </h1>
             </div>
 
@@ -209,7 +209,7 @@ export default function HeroSection() {
               >
                 <div className="relative aspect-[3/4] w-full">
                   <Image
-                    src="/profile.jpg"
+                    src="/profile.jpeg"
                     alt="Portfolio background"
                     fill
                     className="object-cover"
@@ -306,8 +306,8 @@ export default function HeroSection() {
             className="block md:hidden text-center text-3xl sm:text-4xl font-black uppercase tracking-wider text-t-text mb-2"
             style={{ textShadow: "2px 2px 0 rgba(0,0,0,0.5)" }}
           >
-            <span className="text-mc-grass">Naman</span>{" "}
-            <span className="text-mc-diamond">Dadhich</span>
+            <span className="text-mc-grass">Mouli</span>{" "}
+            <span className="text-mc-diamond">Mittal</span>
           </h1>
           {/* Mobile level tag */}
           <div className="flex justify-center mb-3 md:hidden">
@@ -358,11 +358,8 @@ export default function HeroSection() {
               }}
             >
               {[
-                { icon: "linkedin", url: "https://linkedin.com/in/namannn04", label: "LinkedIn" },
-                { icon: "github", url: "https://github.com/namannn04", label: "GitHub" },
-                { icon: "discord", url: "https://discord.com/users/736213483581866053", label: "Discord" },
-                { icon: "twitter-x", url: "https://x.com/namannn04", label: "X" },
-                { icon: "instagram", url: "https://instagram.com/namannn04", label: "Instagram" },
+                { icon: "linkedin", url: "https://linkedin.com/in/moulimittal", label: "LinkedIn" },
+                { icon: "github", url: "https://github.com/Mouli-2004", label: "GitHub" },
               ].map((social, idx) => (
                 <a
                   key={social.icon}
